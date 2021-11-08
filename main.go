@@ -37,7 +37,7 @@ func (a MyService) ChargeCustomer(value int) error {
 
 // A "Production" Example
 func main() {
-	fmt.Println("Hello World")
+	fmt.Println("Hello World!! ")
 
 	smsService := SMSService{}
 	myService := MyService{smsService}
